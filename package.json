@@ -1,0 +1,13 @@
+{
+    "name": "ai-interview-client",
+    "version": "1.0.0",
+    "description": "Client for AI interview platform with audio analysis",
+    "scripts": {
+      "start": "npx serve -s . -l $PORT"
+    },
+    "dependencies": {},
+    "engines": {
+      "node": "20.x"
+    }
+  }
+  
