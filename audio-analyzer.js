@@ -9,7 +9,7 @@ async function startAudio() {
     console.log('Microphone access granted');
 
     // Connect to your Heroku WebSocket server
-    ws = new WebSocket('wss://fyt-interview-fa9bf3d3321e.herokuapp.com:443');
+    ws = new WebSocket('wss://fyt-interview-fa9bf3d3321e.herokuapp.com/');
     ws.onopen = () => console.log('✅ WebSocket connected');
 
     const audioContext = new (window.AudioContext || window.webkitAudioContext)();
